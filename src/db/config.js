@@ -1,4 +1,4 @@
-import mongoose from 'mongoose';
+const mongoose = require('mongoose');
 // Connect to MongoDB
 const connect = async () => {
     await mongoose.connect(`${process.env.MONGODB_URI}`);
