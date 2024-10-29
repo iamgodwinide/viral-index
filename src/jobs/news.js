@@ -1,6 +1,6 @@
-import NewsModel from '../db/Models/News.js';
-import TransactionModel from '../db/Models/Transaction.js';
-import newsData from '../data/news.json' assert { type: 'json' };
+const NewsModel = require('../db/Models/News.js');
+const TransactionModel = require('../db/Models/Transaction.js');
+const newsData = require('../data/news.json');
 
 
 export default async function updateNewsChannel() {

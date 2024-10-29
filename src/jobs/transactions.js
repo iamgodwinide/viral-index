@@ -1,5 +1,5 @@
-import { Connection, PublicKey } from "@solana/web3.js";
-import TransactionModel from '../db/Models/Transaction.js';
+const { Connection, PublicKey } = require("@solana/web3.js");
+const TransactionModel = require('../db/Models/Transaction.js');
 
 // Initialize Solana and MongoDB configurations
 const RPC_ENDPOINT = `${process.env.RPC_ENDPOINT}`;

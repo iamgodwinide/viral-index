@@ -1,9 +1,9 @@
-import dotenv from 'dotenv'
+const dotenv = require('dotenv');
 dotenv.config({});
-import connect from './db/config.js'
-import cron from "node-cron";
-import updateNewsChannel from "./jobs/news.js";
-import fetchAndSaveTransactions from "./jobs/transactions.js";
+const connect = require('./db/config.js')
+const cron = require("node-cron");
+const updateNewsChannel = require("./jobs/news.js");
+const fetchAndSaveTransactions = require("./jobs/transactions.js");
 
 
 connect();

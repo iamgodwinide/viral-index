@@ -1,4 +1,4 @@
-import mongoose, { Schema } from 'mongoose';
+const { Schema, model } = require('mongoose');
 
 const newsSchema = new Schema({
     title: String,
@@ -7,4 +7,4 @@ const newsSchema = new Schema({
     supportingNews: Array
 });
 
-export default mongoose.model("News", newsSchema);
+export default model("News", newsSchema);

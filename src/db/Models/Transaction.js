@@ -1,4 +1,4 @@
-import mongoose, { Schema } from 'mongoose';
+const { Schema, model } = require('mongoose');
 
 const transactionSchema = new Schema({
     signature: String,
@@ -7,4 +7,4 @@ const transactionSchema = new Schema({
     err: Object,
 });
 
-export default mongoose.model("Transaction", transactionSchema);
+export default model("Transaction", transactionSchema);
