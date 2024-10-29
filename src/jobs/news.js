@@ -1,5 +1,5 @@
-import NewsModel from '../db/Models/News';
-import TransactionModel from '../db/Models/Transaction';
+import NewsModel from '../db/Models/News.js';
+import TransactionModel from '../db/Models/Transaction.js';
 import newsData from '../data/news.json';
 
 
