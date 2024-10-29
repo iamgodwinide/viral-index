@@ -6,7 +6,7 @@ const RPC_ENDPOINT = `${process.env.RPC_ENDPOINT}`;
 const connection = new Connection(RPC_ENDPOINT, { commitment: "confirmed", confirmTransactionInitialTimeout: 60_000 });
 const TOKEN_ADDRESS = new PublicKey(`${process.env.TOKEN_ADDRESS}`);
 
-export default async function fetchAndSaveTransactions() {
+module.exports = async function fetchAndSaveTransactions() {
   try {
     const lastTransaction = await TransactionModel.findOne().sort({ slot: -1 });
 

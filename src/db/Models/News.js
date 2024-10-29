@@ -7,4 +7,4 @@ const newsSchema = new Schema({
     supportingNews: Array
 });
 
-export default model("News", newsSchema);
+module.exports = model("News", newsSchema);

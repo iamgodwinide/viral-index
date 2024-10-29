@@ -3,7 +3,7 @@ const TransactionModel = require('../db/Models/Transaction.js');
 const newsData = require('../data/news.json');
 
 
-export default async function updateNewsChannel() {
+module.exports = async function updateNewsChannel() {
   try {
     const totalNews = newsData.length | 1;
     const totaltransactions = await TransactionModel.countDocuments();

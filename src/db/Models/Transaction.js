@@ -7,4 +7,4 @@ const transactionSchema = new Schema({
     err: Object,
 });
 
-export default model("Transaction", transactionSchema);
+module.exports = model("Transaction", transactionSchema);

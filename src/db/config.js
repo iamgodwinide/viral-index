@@ -5,4 +5,4 @@ const connect = async () => {
     console.log("mongodb connected")
 }
 
-export default connect;
+module.exports = connect;
