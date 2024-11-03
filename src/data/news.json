@@ -2880,9 +2880,9 @@
         ]
     },
     {
-        "title": "The Globe Unites Voices",
+        "title": "The internet.pngtes Voices",
         "mainMessage": "The Viral Network's influence is being felt worldwide as discussions ignite across continents.",
-        "icon": "globe.svg",
+        "icon": "internet.png",
         "supportingNews": [
             "Users from diverse backgrounds share their unique perspectives.",
             "Global campaigns leverage the Viral Network to promote change.",
@@ -2892,7 +2892,7 @@
     {
         "title": "Worldwide Reactions to the Viral Network",
         "mainMessage": "From Asia to Europe, the Viral Network's reach knows no bounds.",
-        "icon": "globe.svg",
+        "icon": "internet.png",
         "supportingNews": [
             "Major news outlets report on its global impact.",
             "Cultural phenomena linked to the network spread like wildfire.",
@@ -2902,7 +2902,7 @@
     {
         "title": "Global Events Sparked by the Viral Network",
         "mainMessage": "The Viral Network is at the heart of worldwide events, driving participation like never before.",
-        "icon": "globe.svg",
+        "icon": "internet.png",
         "supportingNews": [
             "Massive rallies and conferences are organized in multiple countries.",
             "Participants share their experiences live, uniting people online.",
@@ -2911,8 +2911,8 @@
     },
     {
         "title": "Cultural Exchange Through the Viral Network",
-        "mainMessage": "The Viral Network fosters a rich cultural exchange across the globe.",
-        "icon": "globe.svg",
+        "mainMessage": "The Viral Network fosters a rich cultural exchange across the internet.png",
+        "icon": "internet.png",
         "supportingNews": [
             "Users share traditions and customs, creating a tapestry of narratives.",
             "Food, music, and art inspired by the network gain international attention.",
@@ -2922,7 +2922,7 @@
     {
         "title": "Yapper's Global Community Thrives",
         "mainMessage": "The Yapper community is breaking geographical barriers through discussions on the Viral Network.",
-        "icon": "globe.svg",
+        "icon": "internet.png",
         "supportingNews": [
             "Real-time translations enhance engagement among users worldwide.",
             "Global challenges are met with local solutions, showcased on the platform.",
@@ -2930,9 +2930,9 @@
         ]
     },
     {
-        "title": "The Globe's Response to Misinformation",
+        "title": "The internet.pngesponse to Misinformation",
         "mainMessage": "In a world of misinformation, the Viral Network stands firm as a beacon of truth.",
-        "icon": "globe.svg",
+        "icon": "internet.png",
         "supportingNews": [
             "Fact-checking initiatives are launched globally to combat false narratives.",
             "Users mobilize to spread accurate information across their communities.",
@@ -2942,7 +2942,7 @@
     {
         "title": "Global Trends and the Viral Network",
         "mainMessage": "The Viral Network sets the stage for global trends that captivate audiences everywhere.",
-        "icon": "globe.svg",
+        "icon": "internet.png",
         "supportingNews": [
             "Fashion, technology, and lifestyle trends emerge from the network.",
             "Users showcase how these trends resonate in their local cultures.",
@@ -2952,7 +2952,7 @@
     {
         "title": "Environmental Movements Gain Momentum",
         "mainMessage": "The Viral Network amplifies global environmental movements, inspiring action across nations.",
-        "icon": "globe.svg",
+        "icon": "internet.png",
         "supportingNews": [
             "Activists leverage the network to share critical information on climate change.",
             "Global campaigns for sustainability gain traction, uniting diverse groups.",
@@ -2962,7 +2962,7 @@
     {
         "title": "The Future of Connectivity",
         "mainMessage": "The Viral Network redefines how people connect, fostering a sense of global community.",
-        "icon": "globe.svg",
+        "icon": "internet.png",
         "supportingNews": [
             "Innovative tech developments enhance connectivity worldwide.",
             "Users collaborate on projects that address global challenges.",
@@ -2972,7 +2972,7 @@
     {
         "title": "The Viral Network's Educational Impact",
         "mainMessage": "Educational initiatives driven by the Viral Network reach students worldwide.",
-        "icon": "globe.svg",
+        "icon": "internet.png",
         "supportingNews": [
             "Online courses and webinars empower learners from different backgrounds.",
             "Global collaborations promote knowledge sharing and best practices.",
@@ -2982,7 +2982,17 @@
     {
         "title": "Total Global Spread of the Viral Network",
         "mainMessage": "The Viral Network has achieved unprecedented global reach, connecting millions in a shared discourse.",
-        "icon": "globe.svg",
+        "icon": "internet.png",
+        "supportingNews": [
+            "The network's influence is visible in cities around the world, sparking conversations.",
+            "Users from every continent share insights and experiences, creating a vibrant global dialogue.",
+            "The Viral Network has become a phenomenon, shaping opinions and driving movements worldwide."
+        ]
+    },
+    {
+        "title": "Total Global Spread of the Viral Network",
+        "mainMessage": "The Viral Network has achieved unprecedented global reach, connecting millions in a shared discourse.",
+        "icon": "internet.png",
         "supportingNews": [
             "The network's influence is visible in cities around the world, sparking conversations.",
             "Users from every continent share insights and experiences, creating a vibrant global dialogue.",

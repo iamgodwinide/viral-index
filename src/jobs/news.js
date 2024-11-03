@@ -8,7 +8,7 @@ module.exports = async function updateNewsChannel() {
     const totalNews = newsData.length | 1;
     const totaltransactions = await TransactionModel.countDocuments();
     const lastNews = await NewsModel.findOne().sort({ _id: -1 });
-    const newsPhase = Math.floor(totaltransactions / 100) | 1;
+    const newsPhase = Math.floor(totaltransactions / 50) | 1;
 
     if (newsPhase > totalNews) {
       return;
