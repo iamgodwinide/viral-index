@@ -11,7 +11,7 @@ module.exports = async function fetchAndSaveTransactions() {
     const lastTransaction = await TransactionModel.findOne().sort({ slot: -1 });
 
     const options = lastTransaction ? { until: lastTransaction.signature || undefined } : {};
-    const newTransactions = await connection.getConfirmedSignaturesForAddress2(TOKEN_ADDRESS, options);
+    const newTransactions = await connection.getSignaturesForAddress(TOKEN_ADDRESS, options);
 
     if (newTransactions.length > 0) {
       await TransactionModel.insertMany(newTransactions.map((tx) => ({
